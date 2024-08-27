@@ -1,0 +1,61 @@
+body {
+    color: aliceblue;
+    background: black;
+    margin: 0px; /*aqui muda a margin padrao que ja vem do nosso site, que seria o 8px, deixando q o oq esta escrito no header fique com a bordsa colada*/
+    margin-top: 60px; /*coloquei para que toda vez que eu colocar conteudo nao mude a parte de baixo e sempre tenha espaço*/
+}
+
+header {
+    border: solid 1px rgb(241, 245, 44);
+    padding: 10px; /*margin externa a minnha borda, diferente do padding q é interna. por a bordinha fica pequena q parece uma linha */
+    font-size: 32px;
+    color: rgb(161, 18, 18);
+}
+
+.comeco {
+    background: blue;
+    /*margin: 80px; deixaria td no meio*/
+    padding-bottom: 80px;
+   padding-top: 80px;
+   display: flex;
+   justify-content: center;
+}
+
+.titulo {
+    margin-right: 5%;
+    font-family: "DM Serif Text", serif;
+}
+
+img {
+    height: 200px;
+}
+
+.youtube {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.you {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+
+.youtube img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+/*o houver é de elemento filho, hover é q qnd passa o mouse*/
+.youtube img:hover {
+    opacity: 1.0;
+    border: 2px solid rgb(151, 29, 29);
+}
+
+.you h2 {
+    color: rgb(224, 224, 30);
+    margin-bottom: 60px;
+    text-align: center;
+}
