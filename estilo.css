@@ -2,7 +2,7 @@ body {
     color: aliceblue;
     background: black;
     margin: 0px; /*aqui muda a margin padrao que ja vem do nosso site, que seria o 8px, deixando q o oq esta escrito no header fique com a bordsa colada*/
-    margin-top: 60px; /*coloquei para que toda vez que eu colocar conteudo nao mude a parte de baixo e sempre tenha espaço*/
+    /*margin-top: 60px; coloquei para que toda vez que eu colocar conteudo nao mude a parte de baixo e sempre tenha espaço*/
 }
 
 header {
